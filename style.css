@@ -1,0 +1,26 @@
+header {
+    width: 100%;
+    
+    margin: auto; 
+}
+
+navbar.navbar-expand-lg.navbar-light.bg-light {
+    width: 960px;
+    margin: 0 auto; 
+}
+
+.navbar-brand {
+    position: relative;
+    left: 25%;
+    color: white;
+    background: #4aaaa5;
+    padding: 20px 5px 15px 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 280px;
+    height: 60px;
+}
+
+.navbar-nav {
+    position: relative;
+    right: -50%;
+}
