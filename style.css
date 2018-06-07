@@ -34,10 +34,14 @@ navbar.navbar-expand-lg.navbar-light.bg-light {
     height: 90px;
     float: left;
 }
+.navbar-brand h1 {
+    color: white;
+}
 
 .navbar-nav {
     position: relative;
     right: -65%;
+    top: -9px;
 }
 
 .container {
