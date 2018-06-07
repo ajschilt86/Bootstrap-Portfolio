@@ -14,8 +14,6 @@ header {
     height: 90px; 
 }
 
-
-
 navbar.navbar-expand-lg.navbar-light.bg-light {
     width: 960px;
     max-width: 960px;
@@ -153,4 +151,14 @@ navbar.navbar-expand-lg.navbar-light.bg-light {
 
 .button:hover {
     background-color: grey;    
+}
+
+@media  screen and (max-width: 900px)  {
+    body {
+        margin: 0 auto;
+    }
+
+    .container {
+        margin: 0 auto;
+    }
 }
