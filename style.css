@@ -23,7 +23,7 @@ navbar.navbar-expand-lg.navbar-light.bg-light {
 .navbar-brand {
     position: relative;
     top: -10px;
-    left: .5%;
+    left: -1.5%;
     color: white;
     background: #4aaaa5;
     padding: 20px 5px 15px 5px;
@@ -38,7 +38,7 @@ navbar.navbar-expand-lg.navbar-light.bg-light {
 
 .navbar-nav {
     position: relative;
-    right: -65%;
+    right: -76%;
     top: -9px;
 }
 
@@ -93,7 +93,7 @@ navbar.navbar-expand-lg.navbar-light.bg-light {
     margin: auto;
     margin-top: 35px;
     margin-bottom: 20px;
-    width: 1065px;
+    
     padding: 20px 35px 30px 35px;
     line-height: 1.5;
 }
