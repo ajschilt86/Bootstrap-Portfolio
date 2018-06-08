@@ -156,7 +156,9 @@ navbar.navbar-expand-lg.navbar-light.bg-light {
 
 
 @media  screen and (max-width: 370px)  {
-    body {
+    .mainContent {
+        position: relative;
+        left: 5px;
         margin: 0 auto;
     }
 
