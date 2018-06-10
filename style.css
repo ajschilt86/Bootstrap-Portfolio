@@ -6,11 +6,11 @@ body {
     overflow-y: scroll;
     overflow-x: hidden; 
 }
+
 header {
     width: 100%;
     background-color: white;
-    border-bottom: 1px solid grey; 
-    
+    border-bottom: 1px solid grey;    
     height: 90px; 
 }
 
@@ -32,6 +32,7 @@ navbar.navbar-expand-lg.navbar-light.bg-light {
     height: 90px;
     float: left;
 }
+
 .navbar-brand h1 {
     color: white;
 }
@@ -42,20 +43,15 @@ navbar.navbar-expand-lg.navbar-light.bg-light {
     top: -9px;
 }
 
-.container {
-    
-}
-
-
-
 .mainContent {
     background-color: #ffffff;
-    border: solid 1px;
-    border-color: #dddddd;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #dddddd;
     margin: auto;
-    margin-top:50px;
-    margin-bottom: 100px;
-    padding: 35px;
+    margin-top:35px;
+    margin-bottom: 20px; 
+    padding: 20px 35px 30px 35px;
+    line-height: 1.5;
  }
 
 .contact {
@@ -70,6 +66,12 @@ navbar.navbar-expand-lg.navbar-light.bg-light {
     font-size: 2em;    
 }
 
+.mainContentWrap {
+    margin: 30px 0;
+}
+
+/* ------------------------------------------------------ABout Me------------------------------------------------- */
+
 .aboutImage {
     float: left;
     height: 150px;
@@ -82,21 +84,7 @@ navbar.navbar-expand-lg.navbar-light.bg-light {
     line-height: 2;
 }
 
-.mainContentWrap {
-    margin: 30px 0;
-}
-
-.mainContent {
-    background: #ffffff;
-    font-family: Arial, Helvetica, sans-serif;
-    border: 1px solid #dddddd;
-    margin: auto;
-    margin-top: 35px;
-    margin-bottom: 20px;
-    
-    padding: 20px 35px 30px 35px;
-    line-height: 1.5;
-}
+/* ------------------------------------------------------Portfolio-------------------------------------------------- */
 
 .img1 { 
     position: relative;
@@ -120,6 +108,22 @@ navbar.navbar-expand-lg.navbar-light.bg-light {
     text-align: center;
 }
 
+/* ------------------------------------------------------Contact-------------------------------------------------- */
+
+.button {
+    background-color:#4aaaa5;
+    border: solid 1px;
+    border-color: #777777;
+    color: white; 
+    height: 40px;
+    width: 80px;    
+}
+
+.button:hover {
+    background-color: grey;    
+}
+
+/* ----------------------------------------------------Footer--------------------------------------------------- */
 
 .footerAll {
     background-color: #666666;
@@ -139,32 +143,49 @@ navbar.navbar-expand-lg.navbar-light.bg-light {
     width: 100%;
 }
 
-
-.button {
-    background-color:#4aaaa5;
-    border: solid 1px;
-    border-color: #777777;
-    color: white; 
-    height: 40px;
-    width: 80px;    
-}
-
-.button:hover {
-    background-color: grey;    
-}
+/* ----------------------------------------------------------Media-------------------------------------------------- */
 
 
 
-@media  screen and (max-width: 370px)  {
-    .mainContent {
+
+@media screen and (max-width: 990px)  {
+    .navbar ul {
+        background-color: white;
+        border: 1px solid grey;
+        width: 80px;
+        z-index: 1;
+        padding-left: 5px;
+    }
+
+    .navbar-nav {
+        
         position: relative;
-        left: 5px;
-        margin: 0 auto;
+        right: -90%;
+    }
+}    
+    
+
+@media screen and (max-width: 440px)  {
+
+    header {
+        
+        height: 180px;
+    }
+    
+    .navbar-nav {
+        
+        position: relative;
+        left: 0;
     }
 
-    .container {
-        margin: 0 auto;
+    .navbar ul {
+        background-color: white;
+        border: 1px solid grey;
+        width: 80px;
+        z-index: 1;
+        padding-left: 5px;
     }
+
+    
+ 
 }
-
-
