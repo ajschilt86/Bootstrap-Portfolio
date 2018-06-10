@@ -145,9 +145,6 @@ navbar.navbar-expand-lg.navbar-light.bg-light {
 
 /* ----------------------------------------------------------Media-------------------------------------------------- */
 
-
-
-
 @media screen and (max-width: 990px)  {
     .navbar ul {
         background-color: white;
@@ -157,23 +154,19 @@ navbar.navbar-expand-lg.navbar-light.bg-light {
         padding-left: 5px;
     }
 
-    .navbar-nav {
-        
+    .navbar-nav {        
         position: relative;
         right: -90%;
     }
-}    
-    
+}        
 
 @media screen and (max-width: 440px)  {
 
-    header {
-        
+    header {        
         height: 180px;
     }
     
-    .navbar-nav {
-        
+    .navbar-nav {        
         position: relative;
         left: 0;
     }
@@ -183,9 +176,6 @@ navbar.navbar-expand-lg.navbar-light.bg-light {
         border: 1px solid grey;
         width: 80px;
         z-index: 1;
-        padding-left: 5px;
-    }
-
-    
- 
+        padding-left: 5px;  
+    }   
 }
